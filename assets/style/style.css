@@ -7,14 +7,14 @@ body {
   background-color: #d3d3d3;
 }
 
-.totalBody {
+.totalbody {
   display: flex;
   flex-direction: column;
   width: 40%;
   margin: auto;
   height: 300px;
   border-radius: 20px;
-  background: linear-gradient(45deg,  rgb(213, 116, 116), rgb(194, 227, 118));
+  background: linear-gradient(45deg, #d57474, #c2e376);
   padding: 10px;
   gap: 1rem;
   box-shadow: 1px 1px 1px 1px;
@@ -57,5 +57,5 @@ input {
 }
 
 .display {
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
