@@ -3,9 +3,9 @@ const secondInput = document.getElementById('input2')
 const weightList = document.getElementById('list')
 const display = document.getElementById('display')
 const buttonElement = document.getElementById('balance')
-let arr = new Array()
+let arr = []
 let list
-function scaling () {
+function scaling() {
   const a = firstInput.value
   const b = secondInput.value
   list = weightList.value
@@ -15,7 +15,7 @@ function scaling () {
     for (let j = 0; j < arr.length; j++) {
       if ((parseInt(a) + parseInt(arr[i])) === (parseInt(b) + parseInt(arr[j]))) {
         return (`${arr[i]},${arr[j]}`)
-        } else {
+      } else {
         return ('Cannot balance')
       }
     }
