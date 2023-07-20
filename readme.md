@@ -5,12 +5,12 @@ This is a DOM manipulation project for an web scale balancer Which takes in 2 nu
 ### Built With
 - HTML
 - CSS
-- Javascript
+- JavaScript
 ### Prerequisites
 Knowledge about:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Google chrome
 ## Clone project
 - To get a local copy up and running follow these simple example steps.
